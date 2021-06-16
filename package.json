@@ -1,0 +1,23 @@
+{
+  "name": "writing-javascript-actions",
+  "version": "1.0.0",
+  "description": "### Getting started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushantbasak/writing-javascript-actions.git"
+  },
+  "keywords": [],
+  "author": "Sushant <sushantbasak73@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sushantbasak/writing-javascript-actions/issues"
+  },
+  "homepage": "https://github.com/sushantbasak/writing-javascript-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.4.0"
+  }
+}
