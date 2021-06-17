@@ -3,13 +3,13 @@ const github = require('@actions/github');
 
 async function run() {
   try {
-    console.log('Hello');
-
     const issueTitle = core.getInput('issue-title');
     const jokeBody = core.getInput('joke');
     const token = core.getInput('repo-token');
 
     const octokit = new github.getOctokit(token);
+
+    await console.log(github.context.repo.repo, github.context.repo.owner);
 
     const newIssue = await octokit.issues.create({
       repo: github.context.repo.repo,
